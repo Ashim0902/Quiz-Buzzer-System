@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Buzzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Buzzer System</h1>
+    <div id="buzzer-container">
+      <button id="player1" class="buzzer">Player 1</button>
+      <button id="player2" class="buzzer">Player 2</button>
+      <button id="player3" class="buzzer">Player 3</button>
+      <button id="player4" class="buzzer">Player 4</button>
+    </div>
+    <div id="result">
+      <h2 id="winner">Waiting for buzzer...</h2>
+    </div>
+    <button id="reset">Reset</button>
+    <audio id="buzzerSound" src="buzzer.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
